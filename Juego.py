@@ -48,7 +48,7 @@ class Save:
                              self.lucy.mover_arriba = False
              #pantalla
              self.nave.mover()
-             self.screen.fill(self.color)
+             screen.fill(self.color)
              self.lucy.corre
              pygame.display.flip()
              
